@@ -9,17 +9,32 @@
 /* Begin PBXBuildFile section */
 		A138458314FBE7C50018D72A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A138458214FBE7C50018D72A /* Cocoa.framework */; };
 		A138458D14FBE7C50018D72A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A138458B14FBE7C50018D72A /* InfoPlist.strings */; };
+		A138459514FBE8B40018D72A /* AP-AccountConfiguration-Paul.xib in Resources */ = {isa = PBXBuildFile; fileRef = A138459414FBE8B40018D72A /* AP-AccountConfiguration-Paul.xib */; };
+		A147830B14FBE963008FECD9 /* AccountConfigurationPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A147830A14FBE963008FECD9 /* AccountConfigurationPlugin.framework */; };
+		A147830E14FBE997008FECD9 /* PaulAccountConfigurationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A147830D14FBE997008FECD9 /* PaulAccountConfigurationPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A138457F14FBE7C50018D72A /* Paul.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paul.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A138457F14FBE7C50018D72A /* Paul.accountconfigplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paul.accountconfigplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A138458214FBE7C50018D72A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A138458514FBE7C50018D72A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A138458614FBE7C50018D72A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A138458714FBE7C50018D72A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A138458A14FBE7C50018D72A /* Paul-Info.plist */ = {isa = PBXFileReference; path = "Paul-Info.plist"; sourceTree = "<group>"; };
+		A138458A14FBE7C50018D72A /* Paul-AccountConfigPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paul-AccountConfigPlugin-Info.plist"; sourceTree = "<group>"; };
 		A138458C14FBE7C50018D72A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A138458E14FBE7C50018D72A /* Paul-Prefix.pch */ = {isa = PBXFileReference; path = "Paul-Prefix.pch"; sourceTree = "<group>"; };
+		A138458E14FBE7C50018D72A /* Paul-AccountConfigPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paul-AccountConfigPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A138459414FBE8B40018D72A /* AP-AccountConfiguration-Paul.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AP-AccountConfiguration-Paul.xib"; sourceTree = "<group>"; };
+		A147830A14FBE963008FECD9 /* AccountConfigurationPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountConfigurationPlugin.framework; path = /Applications/Aperture.app/Contents/Frameworks/AccountConfigurationPlugin.framework; sourceTree = "<absolute>"; };
+		A147830C14FBE997008FECD9 /* PaulAccountConfigurationPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaulAccountConfigurationPlugin.h; sourceTree = "<group>"; };
+		A147830D14FBE997008FECD9 /* PaulAccountConfigurationPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaulAccountConfigurationPlugin.m; sourceTree = "<group>"; };
+		A147831014FBEA15008FECD9 /* AccountConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountConfiguration.h; sourceTree = "<group>"; };
+		A147831114FBEA15008FECD9 /* AccountConfigurationManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountConfigurationManagerBase.h; sourceTree = "<group>"; };
+		A147831214FBEA15008FECD9 /* AccountConfigurationManagerProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountConfigurationManagerProtocol-Protocol.h"; sourceTree = "<group>"; };
+		A147831314FBEA15008FECD9 /* AccountConfigurationPluginBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountConfigurationPluginBase.h; sourceTree = "<group>"; };
+		A147831414FBEA15008FECD9 /* AccountConfigurationPluginHostProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountConfigurationPluginHostProtocol-Protocol.h"; sourceTree = "<group>"; };
+		A147831514FBEA15008FECD9 /* AccountConfigurationPluginProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountConfigurationPluginProtocol-Protocol.h"; sourceTree = "<group>"; };
+		A147831614FBEA15008FECD9 /* AccountConfigurationProfileInformationDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountConfigurationProfileInformationDownloadOperation.h; sourceTree = "<group>"; };
+		A147831714FBEA15008FECD9 /* AccountConfigurationPublishServicePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountConfigurationPublishServicePlugin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A147830B14FBE963008FECD9 /* AccountConfigurationPlugin.framework in Frameworks */,
 				A138458314FBE7C50018D72A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +62,7 @@
 		A138458014FBE7C50018D72A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A138457F14FBE7C50018D72A /* Paul.bundle */,
+				A138457F14FBE7C50018D72A /* Paul.accountconfigplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +70,7 @@
 		A138458114FBE7C50018D72A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A147830A14FBE963008FECD9 /* AccountConfigurationPlugin.framework */,
 				A138458214FBE7C50018D72A /* Cocoa.framework */,
 				A138458414FBE7C50018D72A /* Other Frameworks */,
 			);
@@ -73,7 +90,11 @@
 		A138458814FBE7C50018D72A /* Paul */ = {
 			isa = PBXGroup;
 			children = (
+				A147830F14FBEA15008FECD9 /* Aperture-Headers */,
 				A138458914FBE7C50018D72A /* Supporting Files */,
+				A138459414FBE8B40018D72A /* AP-AccountConfiguration-Paul.xib */,
+				A147830C14FBE997008FECD9 /* PaulAccountConfigurationPlugin.h */,
+				A147830D14FBE997008FECD9 /* PaulAccountConfigurationPlugin.m */,
 			);
 			path = Paul;
 			sourceTree = "<group>";
@@ -81,19 +102,34 @@
 		A138458914FBE7C50018D72A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A138458A14FBE7C50018D72A /* Paul-Info.plist */,
+				A138458A14FBE7C50018D72A /* Paul-AccountConfigPlugin-Info.plist */,
 				A138458B14FBE7C50018D72A /* InfoPlist.strings */,
-				A138458E14FBE7C50018D72A /* Paul-Prefix.pch */,
+				A138458E14FBE7C50018D72A /* Paul-AccountConfigPlugin-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A147830F14FBEA15008FECD9 /* Aperture-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A147831014FBEA15008FECD9 /* AccountConfiguration.h */,
+				A147831114FBEA15008FECD9 /* AccountConfigurationManagerBase.h */,
+				A147831214FBEA15008FECD9 /* AccountConfigurationManagerProtocol-Protocol.h */,
+				A147831314FBEA15008FECD9 /* AccountConfigurationPluginBase.h */,
+				A147831414FBEA15008FECD9 /* AccountConfigurationPluginHostProtocol-Protocol.h */,
+				A147831514FBEA15008FECD9 /* AccountConfigurationPluginProtocol-Protocol.h */,
+				A147831614FBEA15008FECD9 /* AccountConfigurationProfileInformationDownloadOperation.h */,
+				A147831714FBEA15008FECD9 /* AccountConfigurationPublishServicePlugin.h */,
+			);
+			path = "Aperture-Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A138457E14FBE7C50018D72A /* Paul */ = {
+		A138457E14FBE7C50018D72A /* Paul-AccountConfigPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul" */;
+			buildConfigurationList = A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul-AccountConfigPlugin" */;
 			buildPhases = (
 				A138457B14FBE7C50018D72A /* Sources */,
 				A138457C14FBE7C50018D72A /* Frameworks */,
@@ -103,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = Paul;
+			name = "Paul-AccountConfigPlugin";
 			productName = Paul;
-			productReference = A138457F14FBE7C50018D72A /* Paul.bundle */;
+			productReference = A138457F14FBE7C50018D72A /* Paul.accountconfigplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -115,8 +151,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Boris Penck";
 			};
-			buildConfigurationList = A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul" */;
+			buildConfigurationList = A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul-AccountConfigPlugin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A138457E14FBE7C50018D72A /* Paul */,
+				A138457E14FBE7C50018D72A /* Paul-AccountConfigPlugin */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A138458D14FBE7C50018D72A /* InfoPlist.strings in Resources */,
+				A138459514FBE8B40018D72A /* AP-AccountConfiguration-Paul.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A147830E14FBE997008FECD9 /* PaulAccountConfigurationPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,31 +253,45 @@
 		A138459214FBE7C50018D72A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Aperture.app/Contents/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Paul/Paul-Prefix.pch";
-				INFOPLIST_FILE = "Paul/Paul-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				GCC_PREFIX_HEADER = "Paul/Paul-AccountConfigPlugin-Prefix.pch";
+				INFOPLIST_FILE = "Paul/Paul-AccountConfigPlugin-Info.plist";
+				INSTALL_PATH = /Applications/Aperture.app/Contents/PlugIns;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Paul;
+				WRAPPER_EXTENSION = accountconfigplugin;
 			};
 			name = Debug;
 		};
 		A138459314FBE7C50018D72A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Aperture.app/Contents/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Paul/Paul-Prefix.pch";
-				INFOPLIST_FILE = "Paul/Paul-Info.plist";
+				GCC_PREFIX_HEADER = "Paul/Paul-AccountConfigPlugin-Prefix.pch";
+				INFOPLIST_FILE = "Paul/Paul-AccountConfigPlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Paul;
+				WRAPPER_EXTENSION = accountconfigplugin;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul" */ = {
+		A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul-AccountConfigPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A138458F14FBE7C50018D72A /* Debug */,
@@ -247,13 +300,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul" */ = {
+		A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul-AccountConfigPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A138459214FBE7C50018D72A /* Debug */,
 				A138459314FBE7C50018D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
