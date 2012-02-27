@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A138458314FBE7C50018D72A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A138458214FBE7C50018D72A /* Cocoa.framework */; };
+		A138458D14FBE7C50018D72A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A138458B14FBE7C50018D72A /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A138457F14FBE7C50018D72A /* Paul.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paul.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A138458214FBE7C50018D72A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A138458514FBE7C50018D72A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A138458614FBE7C50018D72A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A138458714FBE7C50018D72A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A138458A14FBE7C50018D72A /* Paul-Info.plist */ = {isa = PBXFileReference; path = "Paul-Info.plist"; sourceTree = "<group>"; };
+		A138458C14FBE7C50018D72A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A138458E14FBE7C50018D72A /* Paul-Prefix.pch */ = {isa = PBXFileReference; path = "Paul-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A138457C14FBE7C50018D72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A138458314FBE7C50018D72A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A138457414FBE7C50018D72A = {
+			isa = PBXGroup;
+			children = (
+				A138458814FBE7C50018D72A /* Paul */,
+				A138458114FBE7C50018D72A /* Frameworks */,
+				A138458014FBE7C50018D72A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A138458014FBE7C50018D72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A138457F14FBE7C50018D72A /* Paul.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A138458114FBE7C50018D72A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A138458214FBE7C50018D72A /* Cocoa.framework */,
+				A138458414FBE7C50018D72A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A138458414FBE7C50018D72A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A138458514FBE7C50018D72A /* AppKit.framework */,
+				A138458614FBE7C50018D72A /* CoreData.framework */,
+				A138458714FBE7C50018D72A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A138458814FBE7C50018D72A /* Paul */ = {
+			isa = PBXGroup;
+			children = (
+				A138458914FBE7C50018D72A /* Supporting Files */,
+			);
+			path = Paul;
+			sourceTree = "<group>";
+		};
+		A138458914FBE7C50018D72A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A138458A14FBE7C50018D72A /* Paul-Info.plist */,
+				A138458B14FBE7C50018D72A /* InfoPlist.strings */,
+				A138458E14FBE7C50018D72A /* Paul-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A138457E14FBE7C50018D72A /* Paul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul" */;
+			buildPhases = (
+				A138457B14FBE7C50018D72A /* Sources */,
+				A138457C14FBE7C50018D72A /* Frameworks */,
+				A138457D14FBE7C50018D72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paul;
+			productName = Paul;
+			productReference = A138457F14FBE7C50018D72A /* Paul.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A138457614FBE7C50018D72A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A138457414FBE7C50018D72A;
+			productRefGroup = A138458014FBE7C50018D72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A138457E14FBE7C50018D72A /* Paul */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A138457D14FBE7C50018D72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A138458D14FBE7C50018D72A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A138457B14FBE7C50018D72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A138458B14FBE7C50018D72A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A138458C14FBE7C50018D72A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A138458F14FBE7C50018D72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A138459014FBE7C50018D72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A138459214FBE7C50018D72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paul/Paul-Prefix.pch";
+				INFOPLIST_FILE = "Paul/Paul-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A138459314FBE7C50018D72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paul/Paul-Prefix.pch";
+				INFOPLIST_FILE = "Paul/Paul-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A138457914FBE7C50018D72A /* Build configuration list for PBXProject "Paul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A138458F14FBE7C50018D72A /* Debug */,
+				A138459014FBE7C50018D72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A138459114FBE7C50018D72A /* Build configuration list for PBXNativeTarget "Paul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A138459214FBE7C50018D72A /* Debug */,
+				A138459314FBE7C50018D72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A138457614FBE7C50018D72A /* Project object */;
+}
