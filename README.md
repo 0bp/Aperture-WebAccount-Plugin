@@ -12,6 +12,7 @@ This is currently only part 1 of 2 for a plugin (it seems). A web-account plugin
 
 
 ![Screenshot](http://penck.de/img/code/Paul1.png)
+
 ![Screenshot](http://penck.de/img/code/Paul2.png)
 
 
